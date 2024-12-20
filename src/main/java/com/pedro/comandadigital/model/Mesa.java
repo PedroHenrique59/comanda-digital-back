@@ -1,4 +1,4 @@
-package model;
+package com.pedro.comandadigital.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

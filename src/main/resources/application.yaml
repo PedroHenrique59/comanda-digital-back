@@ -2,7 +2,7 @@ spring:
   application:
     name: 'comanda-digital'
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: 'jdbc:mysql://localhost:3308/comanda_digital'
     username: 'docker'
     password: 'admin123'

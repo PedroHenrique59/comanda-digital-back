@@ -1,11 +1,11 @@
-package service;
+package com.pedro.comandadigital.service;
 
-import lombok.AllArgsConstructor;
-import model.Mesa;
+import com.pedro.comandadigital.repository.MesaRepository;
+import lombok.RequiredArgsConstructor;
+import com.pedro.comandadigital.model.Mesa;
 import org.springframework.stereotype.Service;
-import repository.MesaRepository;
 
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Service
 public class MesaService {
 

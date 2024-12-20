@@ -1,6 +1,6 @@
-package repository;
+package com.pedro.comandadigital.repository;
 
-import model.Mesa;
+import com.pedro.comandadigital.model.Mesa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

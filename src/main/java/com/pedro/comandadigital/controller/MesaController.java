@@ -1,16 +1,16 @@
-package controller;
+package com.pedro.comandadigital.controller;
 
-import lombok.AllArgsConstructor;
-import model.Mesa;
+import lombok.RequiredArgsConstructor;
+import com.pedro.comandadigital.model.Mesa;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import service.MesaService;
+import com.pedro.comandadigital.service.MesaService;
 
 @RestController
-@AllArgsConstructor
+@RequiredArgsConstructor
 @RequestMapping("/mesa")
 public class MesaController {
 
