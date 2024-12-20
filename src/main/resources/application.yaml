@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 'comanda-digital'
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 'jdbc:mysql://localhost:3308/comanda_digital'
+    username: 'docker'
+    password: 'admin123'
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.xml
+
+server:
+  port: 8081
+
